@@ -48,7 +48,7 @@ print(list7[:4])
 print(list7[1:])
 
 #using negative indexes
-print(list7[-2:-5])
+print(list7[:-5])
 
 #using in keyword
 list8 = ["hi", "nikki", "saidhu"]
