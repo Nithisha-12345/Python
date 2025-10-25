@@ -138,7 +138,7 @@ set33 = set31 - set32
 print(set24)
 
 
-#symmetric_difference() method will keep only the elements that are NOT present in both sets.
+#symmetric_difference() method will keep only the elements that are NOT present in both sets.same unna elements ni evadu
 set25 = {"dog", "lion", "tiger"}
 set26 = {"monkey", "cat", "dog"}
 set27 = set25.symmetric_difference(set26)
