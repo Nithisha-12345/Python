@@ -4,19 +4,11 @@ b = 500
 if b > a:
     print("b is greater than a")
 
-
+#using ==
 p = 1000
 q = 1000
 if p == q:
     print("both p and q are equal")
-
-
-
-#to check a number is +ve or not
-num = 100
-if num > 0:
-    print("The number is positive")
-
 
 
 #multiple if block using print statements
