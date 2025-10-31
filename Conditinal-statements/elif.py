@@ -9,6 +9,8 @@ else:
 
 
 
+
+
 #Grade based on marks
 marks = 82
 if marks >= 90:
@@ -23,7 +25,7 @@ else:
 
 
 
-# Check if number is small, medium, or large
+#Check if number is small, medium, or large
 n = 45
 if n < 10:
     print("Small number")
@@ -92,7 +94,8 @@ else:
 
 
 #Compare two numbers
-x, y = 10, 20
+x = 10
+y =20
 if x > y:
     print("x is greater")
 elif x < y:
@@ -105,7 +108,7 @@ else:
 
 
 
-#Classify age group
+#age group
 age = 16
 if age < 13:
     print("Child")
@@ -121,7 +124,9 @@ else:
 
 
 #Simple calculations
-a, b, op = 8, 4, '/'
+a=8
+b=4
+op = '/'
 if op == '+':
     print("Addition:", a + b)
 elif op == '-':
@@ -132,32 +137,4 @@ elif op == '/':
     print("Division:", a / b)
 else:
     print("Invalid operator")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
