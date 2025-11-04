@@ -11,16 +11,7 @@ else:
 
 
 
-#Check if character is uppercase, lowercase or digit
-ch = input("Enter a character: ")
-if ch.isupper():
-    print("Uppercase")
-elif ch.islower():
-    print("Lowercase")
-elif ch.isdigit():
-    print("Digit")
-else:
-    print("Special character")
+
 
 #Check if number is positive, negative or zero
 n = int(input("Enter number: "))
@@ -66,3 +57,14 @@ elif n % 7 == 0:
     print("Multiple of 7 only")
 else:
     print("Not multiple of 3 or 7")
+
+
+
+
+
+
+
+
+
+
+
